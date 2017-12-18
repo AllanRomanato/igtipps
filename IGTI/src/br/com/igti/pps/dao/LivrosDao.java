@@ -18,7 +18,7 @@ public class LivrosDao {
 		return new ArrayList<>();
 	}
 	
-	public void CheckBook(int id) {
+	public void checkBook(int id) {
 		//Application lock
 		if(!lock.isLock()) {
 			lock.setLock(true);
